@@ -36,9 +36,9 @@ public class Cronometro {
 	
 	
 	public void incrementar5000seg (int segundo){
-		
-		for (int i=0; i < 5000; i++) {
-		incrementarTiempo();	
+		int i;
+		for (i=0; i < 5000; i++) {
+		incrementarTiempo(segundo);	
 		}
 	
 	}
