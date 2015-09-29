@@ -8,8 +8,9 @@ import uk.co.placona.helloWorld.HelloWorld;
 
 public class HelloWorldTest {
 	@Test
-	public void testHellowWorld(){
-		HelloWorld hello = new HelloWorld();
-		assertEquals("A test for Hello World String", "Hello World", hello.sayHello());
+	Cronometro c = new Cronometro();
+	public void test() {
+	assertEquals("Hola", c.obtener());
 	}
+	
 }
