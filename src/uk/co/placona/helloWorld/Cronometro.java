@@ -2,28 +2,25 @@ package uk.co.placona.helloWorld;
 
 public class Cronometro {
 
-	private int tiempo = 0,hora=0,minuto=0;
-	
-public String obtener(){
+	private int segundo=0,minuto=0;
+
 		
-	return "Hola";	
-	}
+
 	
 	
 	public void reiniciar (){
 		
-		tiempo=0;
-		hora=0;
+		segundo=0;
 		minuto=0;
 	}
 	
 	
-	public void incrementarTiempo (int tiempo){
+	public void incrementarTiempo (int segundo){
 		
-		if(minuto <=60){
-			minuto+=1;
+		if(segundo <=60){
+			segundo+=1;
 		}else {
-			hora+=1;
+			minuto+=1;
 			minuto=0;
 		}
 	}
@@ -31,7 +28,7 @@ public String obtener(){
 	
 	public String mosTiempotrarTiempo (){
 		String horaCompleta="";
-		horaCompleta+=Integer.toString(hora)+" horas,"+Integer.toString(minuto)+" minutos";
+		horaCompleta+=Integer.toString(minuto)+" minutos,"+Integer.toString(segundo)+" segundos";
 		
 		
 		return horaCompleta;
