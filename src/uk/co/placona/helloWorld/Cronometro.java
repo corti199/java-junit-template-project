@@ -31,8 +31,7 @@ public String obtener(){
 	
 	public String mosTiempotrarTiempo (){
 		String horaCompleta="";
-		horaCompleta+=Integer.toString(hora);
-		horaCompleta+=":"+Integer.toString(minuto);
+		horaCompleta+=Integer.toString(hora)+" horas,"+Integer.toString(minuto)+" minutos";
 		
 		
 		return horaCompleta;
