@@ -1,6 +1,6 @@
 package uk.co.placona.helloWorld;
 
-public class HelloWorld {
+public class Cronometro {
 
 	private int tiempo = 0,hora=0,minuto=0;
 	
