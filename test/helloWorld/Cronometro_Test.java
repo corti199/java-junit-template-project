@@ -16,4 +16,10 @@ public class Cronometro_Test {
 	assertEquals("0:0", c.mosTiempotrarTiempo());
 	}
 	
+	@Test
+	public void test2() {
+	c.reiniciar();
+	assertNotEquals("0:1", c.mosTiempotrarTiempo());
+	}
+	
 }
