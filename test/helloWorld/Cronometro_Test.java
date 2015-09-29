@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import uk.co.placona.helloWorld.Conometro;
+import uk.co.placona.helloWorld.Cronometro;
 
 public class Cronometro_Test {
 	
