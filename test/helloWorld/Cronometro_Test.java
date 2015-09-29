@@ -13,13 +13,13 @@ public class Cronometro_Test {
 	@Test
 	public void test() {
 	c.reiniciar();
-	assertEquals("0:0", c.mosTiempotrarTiempo());
+	assertEquals("0 horas, 0 minutos", c.mosTiempotrarTiempo());
 	}
 	
 	@Test
 	public void test2() {
 	c.reiniciar();
-	assertNotEquals("0:1", c.mosTiempotrarTiempo());
+	assertNotEquals("0 horas, 1 minutos", c.mosTiempotrarTiempo());
 	}
 	
 }
