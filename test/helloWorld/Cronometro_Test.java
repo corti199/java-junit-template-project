@@ -24,7 +24,7 @@ public class Cronometro_Test {
 	}
 	
 	@Test
-	public void test_Reiniciar() {
+	public void test_Reiniciar2() {
 	c.reiniciar();
 	assertNotEquals("0 minutos,1 segundos", c.mosTiempotrarTiempo());
 	}
