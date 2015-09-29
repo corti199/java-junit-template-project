@@ -4,11 +4,12 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import uk.co.placona.helloWorld.HelloWorld;
+import uk.co.placona.helloWorld.Conometro;
 
-public class HelloWorldTest {
+public class Cronometro_Test {
+	
 	@Test
-	HelloWorld c = new HelloWorld();
+	Cronometro c = new Cronometro();
 	public void test() {
 	assertEquals("Hola", c.obtener());
 	}
