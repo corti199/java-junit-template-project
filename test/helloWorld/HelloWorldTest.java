@@ -8,7 +8,7 @@ import uk.co.placona.helloWorld.HelloWorld;
 
 public class HelloWorldTest {
 	@Test
-	Cronometro c = new Cronometro();
+	HelloWorld c = new HelloWorld();
 	public void test() {
 	assertEquals("Hola", c.obtener());
 	}
