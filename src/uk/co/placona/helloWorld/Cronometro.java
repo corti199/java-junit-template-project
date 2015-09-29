@@ -35,6 +35,13 @@ public class Cronometro {
 	}
 	
 	
-
+	public void incrementar500seg (int segundo){
+		
+		for ($i=0; $i < 5000; $i++) {
+		incrementarTiempo();	
+		}
+	
+	}
+	
 
 }
