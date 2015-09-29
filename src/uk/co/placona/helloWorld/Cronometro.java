@@ -15,13 +15,13 @@ public class Cronometro {
 	}
 	
 	
-	public void incrementarTiempo (int segundo){
+	public void incrementarTiempo (){
 		
 		if(segundo <=60){
 			segundo+=1;
 		}else {
 			minuto+=1;
-			minuto=0;
+			segundo=0;
 		}
 	}
 	
@@ -35,10 +35,10 @@ public class Cronometro {
 	}
 	
 	
-	public void incrementar5000seg (int segundo){
+	public void incrementar5000seg (){
 		int i;
 		for (i=0; i < 5000; i++) {
-		incrementarTiempo(segundo);	
+		incrementarTiempo();	
 		}
 	
 	}
